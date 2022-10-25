@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Configuração do Firebase do seu aplicativo da web
+      //adicione aqui
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyCxYsK3tL0w6HbAxzgmSLDFXy8HyV0E3rA",
+        authDomain: "banco-be.firebaseapp.com",
+        databaseURL: "https://banco-be-default-rtdb.firebaseio.com",
+        projectId: "banco-be",
+        storageBucket: "banco-be.appspot.com",
+        messagingSenderId: "882531988706",
+        appId: "1:882531988706:web:18cf69a4526f1652421abb"
+      };      
+      // Inicializar Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
